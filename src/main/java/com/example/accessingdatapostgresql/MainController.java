@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 //import com.example.accessingdatapostgresql.Items;
 
 @Controller //means that the class is a controller.
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "") //Add frontend path/url
 @RequestMapping(path = "/to-do") // This means URL's start with /to-do (after Application path)
 
 public class MainController {
